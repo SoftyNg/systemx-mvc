@@ -1,13 +1,13 @@
 <?php
 
-namespace app\core;
+namespace systemx\mvc;
 /**
  * 
  */
- use app\core\Application;
- use app\core\Router;
-  use app\core\middlewares\BaseMiddleware;
-  use app\core\middlewares\AuthMiddleware;
+ use systemx\mvc\Application;
+ use systemx\mvc\Router;
+  use systemx\mvc\middlewares\BaseMiddleware;
+  use systemx\mvc\middlewares\AuthMiddleware;
 class Controller
 {
 	public string $layout = 'main';

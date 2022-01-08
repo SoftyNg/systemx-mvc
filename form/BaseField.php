@@ -1,10 +1,10 @@
 <?php
 
-namespace app\core\form;
+namespace systemx\mvc\form;
 /**
  * 
  */
-use app\core\Model;
+use systemx\mvc\Model;
 abstract class BaseField
 {	
     public Model $model;

@@ -1,12 +1,10 @@
 <?php
 
-namespace app\core\db;
+namespace systemx\mvc\db;
 /**
  * 
  */
-use app\core\Application;
-//use app\migrations\m0001_initial;
-
+use systemx\mvc\Application;
 
 
 class Database

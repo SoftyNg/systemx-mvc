@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core;
+namespace systemx\mvc;
 /**
  * 
  */
  
- use app\core\Controller;
-  use app\core\db\Database;
-   use app\core\db\DbModel;
-  use app\core\Session;
+ use systemx\mvc\Controller;
+  use systemx\mvc\db\Database;
+   use systemx\mvc\db\DbModel;
+  use systemx\mvc\Session;
 class Application
 {
 	 
