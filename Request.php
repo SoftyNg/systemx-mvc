@@ -1,6 +1,6 @@
 <?php
 
-namespace systemx\mvc;
+namespace systemx\systemx;
 
 class Request{
 

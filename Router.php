@@ -1,11 +1,11 @@
 <?php
 
-namespace systemx\mvc;
+namespace systemx\systemx;
 /**
  * 
  */
-use systemx\mvc\controller;
-use systemx\mvc\exception\NotFoundException;
+use systemx\systemx\controller;
+use systemx\systemx\exception\NotFoundException;
 class Router{
 	
 	public Request $request;
