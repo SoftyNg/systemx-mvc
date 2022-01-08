@@ -1,5 +1,5 @@
 {
-    "name": "lawrencejohnsystemx/systemx",
+    "name": "systemx/systemx",
     "description": "MVC framework",
     "autoload": {
         "psr-4": {
@@ -8,7 +8,7 @@
     },
     "authors": [
         {
-            "name": "LawrenceOJohn",
+            "name": "systemx",
             "email": "thelaw111@gmail.com"
         }
     ],
