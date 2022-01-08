@@ -1,10 +1,10 @@
 <?php
 
-namespace systemx\mvc\db;
+namespace systemx\systemx\db;
 /**
  * 
  */
-use systemx\mvc\Application;
+use systemx\systemx\Application;
 
 
 class Database

@@ -1,14 +1,14 @@
 <?php
 
-namespace systemx\mvc;
+namespace systemx\systemx;
 /**
  * 
  */
  
- use systemx\mvc\Controller;
-  use systemx\mvc\db\Database;
-   use systemx\mvc\db\DbModel;
-  use systemx\mvc\Session;
+ use systemx\systemx\Controller;
+  use systemx\systemx\db\Database;
+   use systemx\systemx\db\DbModel;
+  use systemx\systemx\Session;
 class Application
 {
 	 

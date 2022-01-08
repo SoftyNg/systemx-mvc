@@ -1,9 +1,9 @@
 <?php
 
-namespace systemx\mvc\middlewares;
-use systemx\mvc\Controller;
-use systemx\mvc\Application;
-use systemx\mvc\exception\ForbiddenException;
+namespace systemx\systemx\middlewares;
+use systemx\systemx\Controller;
+use systemx\systemx\Application;
+use systemx\systemx\exception\ForbiddenException;
 
 class AuthMiddleware extends BaseMiddleware {
 	public array $actions = [];

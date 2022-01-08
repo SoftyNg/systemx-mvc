@@ -1,11 +1,11 @@
 <?php
 
-namespace systemx\mvc\form;
+namespace systemx\systemx\form;
 /**
  * 
  */
-use systemx\mvc\Model;
-use systemx\mvc\form\InputField;
+use systemx\systemx\Model;
+use systemx\systemx\form\InputField;
 class Form
 {	
  

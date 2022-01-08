@@ -1,6 +1,6 @@
 <?php
 
-namespace systemx\mvc\middlewares;
+namespace systemx\systemx\middlewares;
 
 
 

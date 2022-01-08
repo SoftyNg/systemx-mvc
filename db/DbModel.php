@@ -1,11 +1,11 @@
 <?php
 
-namespace systemx\mvc\db;
+namespace systemx\systemx\db;
 /**
  * 
  */
-use systemx\mvc\Application;
-use systemx\mvc\Model;
+use systemx\systemx\Application;
+use systemx\systemx\Model;
 
 
 abstract class DbModel extends Model

@@ -1,11 +1,11 @@
 <?php
 
-namespace systemx\mvc\form;
+namespace systemx\systemx\form;
 /**
  * 
  */
-use systemx\mvc\Model;
-use systemx\mvc\form\BaseField;
+use systemx\systemx\Model;
+use systemx\systemx\form\BaseField;
 class TextareaField extends BaseField
 {	
     public Model $model;

@@ -1,6 +1,6 @@
 <?php
 
-namespace systemx\mvc\exception;
+namespace systemx\systemx\exception;
 
 
 
