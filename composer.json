@@ -1,5 +1,5 @@
 {
-    "name": "lawrence/systemx",
+    "name": "LawrenceOJohn/systemx",
     "description": "MVC framework",
     "autoload": {
         "psr-4": {
