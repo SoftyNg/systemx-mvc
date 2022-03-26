@@ -25,6 +25,13 @@ class View{
 		include_once Application::$ROOT_DIR."/views/layouts/$layout.php";
 		return ob_get_clean();
 	}
+	protected function loadCss($css){
+		if(file_exists(Application::$ROOT_DIR."/views/layouts/css/$css.php")){
+			return $link = Application::$ROOT_DIR."/views/layouts/$css.php";
+		}
+		
+		
+	}
 	
 	
 	protected function renderOnlyView($view, $params){

@@ -9,11 +9,12 @@ namespace systemx\systemx;
   use systemx\systemx\db\Database;
    use systemx\systemx\db\DbModel;
   use systemx\systemx\Session;
+  use systemx\systemx\helpers\Uri_helper;
 class Application
 {
 	 
-	const EVENT_BEFORE_REQUEST = 'beforeRequest';
-	const EVENT_AFTER_REQUEST = 'afterRequest';
+	// const EVENT_BEFORE_REQUEST = 'beforeRequest';
+	// const EVENT_AFTER_REQUEST = 'afterRequest';
 	
 	
 	protected array $eventListeners = [];
@@ -27,6 +28,7 @@ class Application
 	public Database $db;
 	public ?UserModel $user;
 	public View $view;
+	public Url_helper $urlHelper;
 	
 	
 	public static Application $app;
